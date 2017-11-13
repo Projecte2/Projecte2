@@ -51,10 +51,10 @@ body :-ms-input-placeholder {
           transform: translateY(85px);
 }
 .container {
-  max-width: 600px;
+/*  max-width: 600px;
   margin: 0 auto;
   padding: 80px 0;
-  height: 400px;
+  height: 400px;*/
   text-align: center;
 }
 .container h1 {
@@ -257,3 +257,33 @@ li a:hover:not(.active) {
 .active {
     background-color: #7BCCC4;
 }
+
+.cabecera{
+}
+.img1{
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    
+  }
+.titulo{
+/*  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;
+  font-size: 50px;
+  margin-top: -250px;*/
+
+}
+.izq{
+  float: left;
+  display: block;
+  width: 50%;
+  background-color: #ff6a00;
+}
+.der{
+  float: right;
+  display: block;
+  width: 50%;
+  background-color: #b6ff00;
+}
+    
