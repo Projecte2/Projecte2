@@ -6,7 +6,9 @@ if ($conexion==false) {
 }
 else{
 //filtre
-echo"<form method=post action=funciolliures.php>";
+$idusu['idusu'];
+
+echo"<form method=post action=../funciolliures.php>";
         $sql2="SELECT DISTINCT rec_tipus FROM recurs";
         $qtalla= mysqli_query($conexion, $sql2);
 
@@ -17,6 +19,7 @@ echo"<form method=post action=funciolliures.php>";
 
             }
 		echo "</select><br>";
+		echo"<input type=hidden name=idusu value=$idusu>";
 		echo"<input type=text name=text placeholder=Nom del recurs>";
 		echo"<input type=submit value=Buscar>";
 echo "</form><br>";

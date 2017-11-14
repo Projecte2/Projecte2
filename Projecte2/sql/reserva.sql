@@ -55,7 +55,7 @@ ADD CONSTRAINT `FK_recurs_reserva` FOREIGN KEY(`rec_id`) REFERENCES `recurs`(`re
 /*USUARIS*/
 INSERT INTO `usuari` (`usu_nom`, `usu_contrasenya`, `usu_cognoms`, `usu_email`, `usu_telefon`) VALUES ('SI_ADMIN', 'Admon357', '357', 'admon.intranet@gmail.com', '933376542'),
  ('Sebastian', 'Comunism2017', 'Matveyev', 'SebastianMatveyev@gmail.com', '434531085'), ('Fabiano', 'PizzaTime2017', 'Calabrese', 'FabianoCalabrese@gmail.com', '435531085'),
-('Fabiano', 'PizzaTime2017', 'Calabrese', 'FabianoCalabrese@gmail.com', '433531085'),
+('John', 'WWE2017', 'Cena', 'JohnCena@gmail.com', '435531085'),
 ('David', 'DavidCurtis2017', 'Curtis', 'DavidCurtis@gmail.com', '436531085'),
 ('Alex', 'England2017', ' Bradley', 'AlexBradley@gmail.com', '437531085');
 

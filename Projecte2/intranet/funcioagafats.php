@@ -19,7 +19,7 @@ $anterior="anterior";
 //paginat inici
 $max=$_REQUEST['max'];
 $id=$_REQUEST['id'];
-
+$idusu=$_REQUEST['idusu'];
 
 
 
@@ -30,11 +30,11 @@ if (isset($max)) {
         case 'seguent':
             $max=$max+10;
             break;
-	
+
         case 'anterior':
              $max=$max-10;
             break;
-} 
+}
 }
 else {
 $max=0;
@@ -59,7 +59,7 @@ echo"<br>";
 for ($i=1;$i<8 ;$i++) {
 
 	switch ($i) {
-	
+
 		case (3):
 		    echo"<font size=1>$camp[$i]: </font>";
 		    echo"<font size=1>$registro[$i] <br></font>";
@@ -80,9 +80,9 @@ for ($i=1;$i<8 ;$i++) {
 			    default:
 				echo"$camp[$i]: ";
 				echo"$registro[$i] <br>";
-				break;        
+				break;
 	}	//tanca switch
-//boto reserar _> 
+//boto reserar _>
 }//tanca for
 echo"<br>";
 echo"<br>";
@@ -97,7 +97,7 @@ echo"<br>";
 	}//tanca if consulta>0
 else{
 echo"No s'han trobat mes recursos!";
-echo"<br><a href=funciolliures.php>torna</a>";
+echo"<br><a href=reserves/funciolliures.php>Torna</a>";
 }
 }//tanca else si s'ha fet be la conexio
 	echo"</form>";
